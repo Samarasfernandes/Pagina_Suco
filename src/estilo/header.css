@@ -1,0 +1,38 @@
+header {
+    background-color: #543787;
+      text-align: center;
+      padding: 2px;
+      
+  }
+  .wave {
+    background-color: #fbb331; 
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+
+
+  }
+  .menu{
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    
+
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    gap: 1px; 
+    padding: 40px;
+  
+  }
+  .icon{
+    color: #f6dd00;
+    font-size: 40px;
+    text-decoration: none;
+  }
+
+  .menu:hover{
+color:#ce639c;
+  }

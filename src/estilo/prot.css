@@ -1,0 +1,90 @@
+#prot{
+    background-color: #ce639c;
+    position: relative;
+    min-height: 135vh; 
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2); 
+}
+.containe-produt{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    margin-top: -10px;
+
+}
+.pr{
+    width: 240px;        
+  height: 240px;       
+  border-radius: 50%; 
+  object-fit: cover;  
+  margin-top: -25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  transition: all 0.2s ease 0s;
+
+}
+
+.containe-produt :nth-child(2){
+  transition-delay: 200ms;
+}
+.containe-produt :nth-child(3){
+  transition-delay: 400ms;
+}
+.containe-produt :nth-child(4){
+  transition-delay: 600ms;
+}
+.containe-produt :nth-child(5){
+  transition-delay: 800ms;
+}
+
+.pr:hover{
+    transform: translateY(7px);
+}
+.pr:active{
+    transform: translateY(1px);
+}
+
+.container-text-prot{
+  text-align: center;
+  padding: 220px;
+  color: #4b863d;
+  
+}
+.text-prot{
+    font-size: 50px;
+}
+.mini-text-prot{
+font-size: 20px;
+font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    color: #fbb331;
+    margin-left: 500px;
+    margin-top: -660px;
+    position: absolute;
+    font-size: 40px;
+    
+  }
+
+  canvas {
+    max-width: 500px;
+    max-height: 400px;
+
+  }
+  .container-morango{
+display: flex;
+margin-top: -180px;
+margin-left: 150px;
+
+}
+.morango{
+    width: 660px;
+}
+
+.container-grafico {
+    display: flex;
+    justify-content: right;
+    margin-top: -530px;
+    margin-right: 210px;
+    
+}

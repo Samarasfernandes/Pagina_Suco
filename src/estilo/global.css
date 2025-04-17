@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: "Outfit", serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Kanit", sans-serif;
+      scroll-behavior: smooth;
+
+  
+  } 
+  section {
+ margin: 0;
+  }
+
+  :root {
+    --color-primary-1: #FEB737;
+    --color-primary-2: #ffe8b4;
+    --color-primary-3: #a1251e;
+    --color-primary-4: #ffe100;
+    --color-primary-5: #ffcb45;
+    --color-primary-6: #e9a209;
+
+    --color-neutral-0: #fff;
+    --color-neutral-1: #1d1d1d;
+}
+.hidden{
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 2s;
+}
