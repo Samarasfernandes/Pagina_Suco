@@ -13,6 +13,6 @@ Este trabalho representa minha evolução como desenvolvedora front-end e web de
 - JavaScript 
 
 ## 📸 Demonstração
-#Link para site: https://samarasfernandes.github.io/Pagina_Suco/
+# Link para site: https://samarasfernandes.github.io/Pagina_Suco/
 
 ![screencapture-file-C-Users-samar-OneDrive-Area-de-Trabalho-suco-main-html-2025-04-17-19_31_59](https://github.com/user-attachments/assets/5ab7cd89-5905-4ead-aa3f-9edb9aaac349)
